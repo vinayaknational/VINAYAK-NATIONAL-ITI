@@ -186,4 +186,149 @@ nav a:hover{
 .stat-box p{
     font-size:18px;
     font-weight:bold;
+}/* Top Notice Bar */
+.top-bar{
+    background:#ff9800;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#0a58ca);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffc107;
+    color:black;
+    padding:12px 25px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#ff9800;
+}
+
+/* Navigation */
+nav{
+    background:#0b3d91;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Statistics */
+.stats{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    padding:50px 20px;
+    background:#f5f5f5;
+}
+
+.stat-box{
+    background:white;
+    width:220px;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.stat-box h2{
+    color:#0d6efd;
+    font-size:36px;
+}
+
+.stat-box p{
+    font-size:18px;
+    font-weight:bold;
+}.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.site-logo{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    background:#ffffff;
+    padding:5px;
+}.notice{
+    background:#ffeb3b;
+    color:#000;
+    padding:12px;
+    font-size:18px;
+    font-weight:bold;
+    border-top:2px solid #ffc107;
+    border-bottom:2px solid #ffc107;
+}.header-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo h1{
+    margin:0;
+    font-size:42px;
+}
+
+.logo p{
+    margin-top:8px;
+    font-size:18px;
+}
+
+.header-btn .btn{
+    font-size:18px;
+    padding:12px 25px;
+}.contact-info{
+    text-align:right;
+    color:white;
+    font-size:16px;
+    line-height:1.8;
+    font-weight:bold;
+}
+
+.contact-info p{
+    margin:0;
 }
